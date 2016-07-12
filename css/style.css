@@ -1,0 +1,43 @@
+body {
+    font-family:"微软雅黑" ,"Microsoft Yahei",arial,"Hiragino Sans GB",sans-serif;
+}
+.ui.menu{
+    font-family:"微软雅黑" ,"Microsoft Yahei",arial,"Hiragino Sans GB",sans-serif;
+}
+.ui.button{
+    font-family:"微软雅黑" ,"Microsoft Yahei",arial,"Hiragino Sans GB",sans-serif;
+}
+.ui.header{
+    font-family:"微软雅黑" ,"Microsoft Yahei",arial,"Hiragino Sans GB",sans-serif;
+    font-weight: normal;
+}
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui){
+    font-family:"微软雅黑" ,"Microsoft Yahei",arial,"Hiragino Sans GB",sans-serif;
+    font-weight: normal;
+}
+.ui.menu .item img.logo {
+    margin-right: 1.5em;
+}
+.main.container {
+    margin-top: 7em;
+}
+.wireframe {
+    margin-top: 2em;
+}
+.ui.footer.segment {
+    margin: 5em 0em 0em;
+    padding: 5em 0em;
+}
+.ui.cards>.card{
+    width: 100%;
+}
+.ui.steps .step .title{
+    font-family:"微软雅黑" ,"Microsoft Yahei",arial,"Hiragino Sans GB",sans-serif;
+    font-weight: bold;
+}
+.ui.steps .step .description{
+    font-family:"微软雅黑" ,"Microsoft Yahei",arial,"Hiragino Sans GB",sans-serif;
+}
+.text-center{
+    text-align: center;
+}
