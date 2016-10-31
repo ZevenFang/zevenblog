@@ -17,4 +17,7 @@
 ### 新建文章
 ![New post](https://raw.github.com/ZevenFang/zevenblog/master/screenshot/newPost.png)
 
+## 高级
+[多说](http://duoshuo.com/)评论使用默认id，如需修改请编辑conf/config.php文件
+
 ## PS：更多功能请fork体验，欢迎PR。
