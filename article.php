@@ -13,7 +13,7 @@ $art = $db->getOne('article');
     <div><?php echo $art['content']?></div>
     <div class="ui divider"></div>
     <!-- 多说分享 start -->
-    <div class="ds-share flat" data-thread-key="64b0834f331bc1ebeb1b8d6eab8b60f9" data-title="<?php echo $art['title']?>" data-images="" data-content='<?php echo $art['content']?>' data-url="">
+    <div class="ds-share flat" data-thread-key="<?php echo $conf['duoshuo']?>" data-title="<?php echo $art['title']?>" data-images="" data-content='<?php echo $art['content']?>' data-url="">
         <div class="ds-share-aside-right">
             <div class="ds-share-aside-inner"></div>
             <div class="ds-share-aside-toggle">分享到</div>
@@ -21,7 +21,7 @@ $art = $db->getOne('article');
     </div>
     <!-- 多说分享 end -->
     <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key="64b0834f331bc1ebeb1b8d6eab8b60f9" data-title="<?php echo $art['title']?>" data-url=""></div>
+    <div class="ds-thread" data-thread-key="<?php echo $conf['duoshuo']?>" data-title="<?php echo $art['title']?>" data-url=""></div>
     <!-- 多说评论框 end -->
     <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
     <script type="text/javascript">
